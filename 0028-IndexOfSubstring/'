@@ -1,0 +1,18 @@
+public class IndexOfSubstring {
+    public static int indexOfSubstring(String haystack, String needle) {
+        for (int haystackIndex = 0; haystackIndex < haystack.length(); haystackIndex++) {
+            for (int needleIndex = 0; needleIndex < needle.length(); needleIndex++) {
+                if (haystackIndex + needleIndex >= haystack.length()) { break; }
+                if (haystack.charAt(haystackIndex + needleIndex) != needle.charAt(needleIndex)) { break; }
+                return haystackIndex;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Index of \"ll\" in \"hello\": " + indexOfSubstring("hello", "ll"));
+        System.out.println("Index of \"bba\" in \"aaaaa\": " + indexOfSubstring("aaaaa", "bba"));
+        System.out.println("Index of \"\" in \"\": " + indexOfSubstring("", ""));
+    }
+}
