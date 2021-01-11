@@ -1,6 +1,6 @@
 [Problem](https://leetcode.com/problems/two-sum/)
 
-## constraints
+## useful info
 - each input has exactly one solution
     - no multiple solutions
     - no no-solution
@@ -9,7 +9,7 @@
     - dulicate element allowed, e.g. [3, 3]
 - can return the answer in any order
 
-## insight
+## thougth process
 - brute force approach would have a time complexity of O(n^2)
 - for each element, if we can determine whether the difference of the element
   is in `nums` in O(1), we can reduce the time complexity to O(n)

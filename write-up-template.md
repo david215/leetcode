@@ -1,9 +1,9 @@
 [Problem]()
 
-## constraints
+## useful info
 -
 
-## insight
+## thought process
 -
 
 ## edge cases
