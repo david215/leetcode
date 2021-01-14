@@ -1,15 +1,17 @@
-[Problem]()
+[Problem](https://leetcode.com/problems/????)
+
+## takeaway
+- 
 
 ## useful info
--
-
-## thought process
 -
 
 ## edge cases
 -
 
-## submission 1
+## take 1
+- thought process...
+- submission:
 ```java
 
 ```
