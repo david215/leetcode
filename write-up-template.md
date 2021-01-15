@@ -3,11 +3,7 @@
 ## takeaway
 - 
 
-## useful info
--
-
-## edge cases
--
+![](img.jpg)
 
 ## take 1
 - thought process...
