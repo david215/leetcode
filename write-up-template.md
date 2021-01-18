@@ -1,20 +1,16 @@
-[Problem](https://leetcode.com/problems/????)
+[Problem](https://leetcode.com/problems/URL_PLACEHOLDER/)
 
 ## takeaway
 - 
 
-![](img.jpg)
-
 ## take 1
-- thought process...
-- submission:
+![](img-1.jpg)
+- code:
 ```java
 
 ```
-- Time
-    - O(?)
-- Space
-    - O(?)
 - Result
+    - ?
+- Note
     - ?
 
