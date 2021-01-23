@@ -6,7 +6,7 @@
 ## take 1
 ![](img-1.jpg)
 - code:
-```java
+```python
 
 ```
 - Result
