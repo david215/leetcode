@@ -1,7 +1,7 @@
 [Problem](https://leetcode.com/problems/URL_PLACEHOLDER/)
 
 ## takeaway
-- 
+-
 
 ## take 1
 ![](img-1.jpg)
@@ -9,6 +9,10 @@
 ```python
 
 ```
+- Time
+    - ?
+- Space
+    - ?
 - Result
     - ?
 - Note
