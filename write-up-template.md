@@ -5,16 +5,15 @@
 
 ## take 1
 ![](img-1.jpg)
-- code:
+- Approach
+- Code
 ```python
 
 ```
-- Time
+- Time: ?
     - ?
-- Space
+- Space: ?
     - ?
-- Result
-    - ?
-- Note
+- Result: ?
     - ?
 
