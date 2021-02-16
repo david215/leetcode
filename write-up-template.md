@@ -1,11 +1,15 @@
 [Problem](https://leetcode.com/problems/URL_PLACEHOLDER/)
 
-## takeaway
+## Algorithm Classification
 -
 
-## take 1
-![](img-1.jpg)
+## Takeaways
+-
+
+## Take 1
 - Approach
+    - ?
+![](img-1.jpg)
 - Code
 ```python
 
@@ -15,5 +19,5 @@
 - Space: ?
     - ?
 - Result: ?
-    - ?
+    -
 
