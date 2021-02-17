@@ -1,0 +1,37 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+    echo 'need (num. name) and level'
+    exit 1
+fi
+
+ARR=($(echo $1 | tr ". " "\n"))
+NUM="${ARR[0]}"
+NAME="${ARR[@]:1}"
+LEVEL="$2"
+
+NUM_ZERO_PADDED="$(printf '%04d' $NUM)"
+PASCAL_NAME="$(echo $NAME | sed -e 's/\<\(\w\)/\u\0/g; s/ //g')"
+DIR="$NUM_ZERO_PADDED-$PASCAL_NAME"
+URL_NAME="$(echo $NAME | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g')"
+
+mkdir $DIR
+# cp ~/leetcode/soln-template.java $DIR/Solution.java
+cp ~/leetcode/soln-template.py $DIR/solution.py
+cp ~/leetcode/write-up-template.md $DIR/README.md
+
+# Populate the URL in README
+sed -i "s/URL_PLACEHOLDER/$URL_NAME/" $DIR/README.md
+
+# Copy and rename images
+ARR=($(find ~/Downloads/ -name '*.jpg' | sort))
+for INDEX in ${!ARR[@]}; do
+    mv "${ARR[$INDEX]}" "$DIR/img-$((INDEX + 1)).jpg"
+done
+
+git add -u
+git add $DIR
+git commit -m "$NUM. $NAME"
+
+vim $DIR/solution.py $DIR/README.md
+
