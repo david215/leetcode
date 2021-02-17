@@ -1,4 +1,0 @@
-[submodule "blind-curated-75"]
-	path = blind-curated-75
-	url = git@github.com:david215/leetcode-blind-curated-75.git
-    ignore = all
