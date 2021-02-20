@@ -9,6 +9,7 @@
 ## Take 1
 - Approach
     - ?
+
 ![](img-1.jpg)
 - Code
 ```python
