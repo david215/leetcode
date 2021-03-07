@@ -34,7 +34,6 @@ def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
 - Approach
     - Use variation of quickselect to partition K elements on the left.
 
-![](img-1.jpg)
 - Code
 ```python
 class Solution:
